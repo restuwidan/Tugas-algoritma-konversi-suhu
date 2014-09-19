@@ -1,0 +1,19 @@
+#include<conio.h>
+#include<stdio.h>
+
+main()
+{
+float cel, fah, rea;
+cel=0;
+printf("\n""KONVERSI SUHU DARI CELCIUS KE");
+printf("\n""Fahrenheit: Reamur");
+printf("\n""Masukkan suhu dalam Celcius : ");
+scanf("%f",&cel);
+fah=cel*1.8+32;
+rea=cel*0.8;
+printf("\n""HASIL KONVERSI SUHU");
+printf("\n"" fahrenheit : %2.2f",fah);
+printf("\n"" reamur     : %2.2f",rea);
+printf("\n""\n""Create By Restu Widan Kapila_MI.B");
+getche();
+}                         
